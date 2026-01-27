@@ -29,8 +29,9 @@ namespace CursoCSharp {
             Console.Write("\nExecutando exercício ");
             Console.BackgroundColor = ConsoleColor.Yellow;
             Console.ForegroundColor = ConsoleColor.Black;
-            Console.WriteLine(nomeDoExercicio);
+            Console.Write(nomeDoExercicio);
             Console.ResetColor();
+            Console.WriteLine();
 
             Console.WriteLine(String.Concat(
                 Enumerable.Repeat("=", nomeDoExercicio.Length + 21)) + "\n");

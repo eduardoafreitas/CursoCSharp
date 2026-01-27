@@ -14,8 +14,8 @@ O aprendizado está dividido nas seguintes seções:
 - [x] **02. Configuração do Ambiente:** Setup do Visual Studio e ambiente de desenvolvimento.
 - [x] **03. Fundamentos:** Variáveis, tipos de dados, operadores e entrada/saída.
 - [x] **04. Estruturas de Controle:** Estruturas condicionais (if/else, switch) e laços de repetição (for, while).
-- [/] **05. Classes & Métodos:** Início da jornada em OO (membros, construtores, `this`).
-- [ ] **06. Coleções:** Arrays, Listas, Filas, Pilhas e Dicionários.
+- [x] **05. Classes & Métodos:** Início da jornada em OO (membros, construtores, `this`).
+- [/] **06. Coleções:** Arrays, Listas, Filas, Pilhas e Dicionários.
 - [ ] **07. Orientação a Objetos:** Pilares da OO (Encapsulamento, Herança, Abstração e Polimorfismo).
 - [ ] **08. Métodos e Funções:** Lambdas, Delegates e programação funcional em C#.
 - [ ] **09. Exceções:** Tratamento de erros com `try/catch`.
