@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-
-using CursoCSharp.Fundamentos;
-using CursoCSharp.EstruturasDeControle;
-using CursoCSharp.ClassesEMetodos;
+﻿using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.EstruturasDeControle;
+using CursoCSharp.Fundamentos;
+using CursoCSharp.OO;
+using System;
+using System.Collections.Generic;
 
 namespace CursoCSharp {
     class Program {
@@ -68,6 +68,15 @@ namespace CursoCSharp {
                 { "Igualdade - Coleções", Igualdade.Executar},
                 { "Stack - Coleções", ColecoesStack.Executar},
                 { "Dictionary - Coleções", ColecoesDictionary.Executar},
+
+                // Orientação a Objetos
+                { "Herança - OO", Heranca.Executar},
+                { "Construtor This - OO", ConstrutorThis.Executar},
+                { "Encapsulamento - OO", OO.Encapsulamento.Executar},
+                { "Polimofirsmo - OO", Polimorfismo.Executar},
+                { "Abstract - OO", Abstract.Executar},
+                { "Interface - OO", Interface.Executar},
+                { "Sealed - OO", Sealed.Executar},
             });
 
             central.SelecionarEExecutar();

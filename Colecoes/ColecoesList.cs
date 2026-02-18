@@ -38,7 +38,7 @@ namespace CursoCSharp.Colecoes
     {
         public static void Executar()
         {
-            var livro = new Produto("Game of Throne", 49.9);
+            var livro = new Produto("Breaking Bad", 49.9);
 
             var carrinho = new List<Produto>();
             carrinho.Add(livro);
