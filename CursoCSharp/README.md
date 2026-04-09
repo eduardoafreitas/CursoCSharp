@@ -17,10 +17,10 @@ O aprendizado está dividido nas seguintes seções:
 - [x] **05. Classes & Métodos:** Início da jornada em OO (membros, construtores, `this`).
 - [x] **06. Coleções:** Arrays, Listas, Filas, Pilhas e Dicionários.
 - [x] **07. Orientação a Objetos:** Pilares da OO (Encapsulamento, Herança, Abstração e Polimorfismo).
-- [/] **08. Métodos e Funções:** Lambdas, Delegates e programação funcional em C#.
-- [ ] **09. Exceções:** Tratamento de erros com `try/catch`.
-- [ ] **10. Explorando API:** Manipulação de arquivos (IO), DateTime e muito mais.
-- [ ] **11. Tópicos Avançados:** LINQ, Generics, Dynamics e Nullables.
+- [x] **08. Métodos e Funções:** Lambdas, Delegates e programação funcional em C#.
+- [x] **09. Exceções:** Tratamento de erros com `try/catch`.
+- [x] **10. Explorando API:** Manipulação de arquivos (IO), DateTime e muito mais.
+- [/] **11. Tópicos Avançados:** LINQ, Generics, Dynamics e Nullables.
 
 > *Nota: O status `[x]` indica concluído e `[/]` indica em progresso.*
 
