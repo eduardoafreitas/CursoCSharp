@@ -5,14 +5,18 @@ using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.Excecoes;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.TopicosAvancados;
 using CursoCSharp.OO;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlTypes;
 
-namespace CursoCSharp {
-    class Program {
-        static void Main(string[] args) {
+namespace CursoCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
 
                 // Fundamentos
@@ -104,12 +108,12 @@ namespace CursoCSharp {
                 { "Exemplo DateTime - Usando API", ExemploDateTime.Executar},
                 { "Exemplo Timespan - Usando API", ExemploTimeSpan.Executar},
 
-                //// Tópicos Avançados
-                //{ "LINQ #01 - Tópicos Avançados", LINQ1.Executar},
-                //{ "LINQ #02 - Tópicos Avançados", LINQ2.Executar},
-                //{ "Nullables - Tópicos Avançados", Nullables.Executar},
-                //{ "Dynamics - Tópicos Avançados", Dynamics.Executar},
-                //{ "Genéricos - Tópicos Avançados", Genericos.Executar},
+                /// Tópicos Avançados
+                { "LINQ #01 - Tópicos Avançados", LINQ1.Executar},
+                { "LINQ #02 - Tópicos Avançados", LINQ2.Executar},
+                { "Nullables - Tópicos Avançados", Nullables.Executar},
+                { "Dynamics - Tópicos Avançados", Dynamics.Executar},
+                { "Genéricos - Tópicos Avançados", Generics.Executar},
             });
 
             central.SelecionarEExecutar();
